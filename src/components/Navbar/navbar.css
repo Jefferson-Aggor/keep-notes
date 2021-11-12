@@ -1,0 +1,55 @@
+.searchbar{
+    display: flex;
+    align-items: center;
+    background: var(--color-white);
+    padding: 0.5rem 1.2rem;
+    margin: 0.3rem 0.6rem;
+    border-radius: 100px;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 1rem;
+    padding: 1.2rem;
+    border-radius: 50%;
+    background: blue;
+    margin-left: 0.2rem;
+
+}
+
+.user-icon p{
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    padding: 0.8rem 1rem;
+    color:var(--color-white);
+    background: var(--rich-black);
+    /* clip-path: polygon(0% 100%, 0% 0%, 69% 0%, 73% 40%, 86% 40%, 90% 0%, 100% 0%, 100% 100%); */
+
+}
+
+/* .navbar-add{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2000;
+
+} */
+
+.searchbar input{
+    border: none;
+
+}
+

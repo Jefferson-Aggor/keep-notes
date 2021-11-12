@@ -1,0 +1,38 @@
+.addNote{
+    padding: 1rem 2rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.addNote textarea {
+    border: none;
+    display: block;
+    background: transparent;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+.addNote textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.addNote .title{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    min-height: 1rem;
+    
+}
+
+.addNote .body{
+    min-height: 80vh;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+
+
+.addNote .btn{
+    color:#fff;
+    background: var(--rich-black);
+    margin-top: 1rem;
+}

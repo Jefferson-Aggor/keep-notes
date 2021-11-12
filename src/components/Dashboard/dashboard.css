@@ -1,0 +1,45 @@
+.dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-body{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.notes-output{
+    padding: 0.5rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+
+}
+
+.note{
+    padding: 1rem;
+    border: 0.1rem solid #777;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.note:active{
+   background: rgba(0,0,0,0.1);
+}
+
+.note-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .notes-output{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .note-title{
+        font-size: 0.8rem;
+    }
+}
